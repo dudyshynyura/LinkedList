@@ -15,6 +15,10 @@ public:
   void Insert(int pos, T info);
   void Delete(int pos);
   void RemoveDuplicates();
+  ~List(){
+    delete head;
+    delete end;
+  }
 };
 
 template<typename T> void List<T>::CreateNode(T info){
