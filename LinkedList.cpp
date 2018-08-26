@@ -74,8 +74,5 @@ int main(){
   list.Display();
   list.Delete(3);
   list.Display();
-  //Node<int> obj;
-  //obj.data = 15;
-  //cout << obj.data << endl;
   return 0;
 }
